@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Avenir;
+    src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Aleo;
+    src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
+}
+
+html, body {
+    background: #F2F2F2;
+    font-size: 1.8rem;
+    font-family: Avenir;
+    color: #1A2E33;
+    line-height: 1.5;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 575.98px) {
+    html { font-size: 55%; }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html { font-size: 58%; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html { font-size: 60%; }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .small-screen-break { display: none; }
+    html { font-size: 62.5%; }
+}
+@media (min-width: 1200px) {
+    .small-screen-break { display: none; }
+    html { font-size: 62.5%; }
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    padding-top: 10vh;
+    text-align: center;
+    background: #F7F7F7;
+}
+
+.aleo {
+    font-family: Aleo;
+}
+
+.text-white {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: Aleo;
+    font-weight: bold;
+}
+
+p, a {
+    color: #1A2E33;
+    text-decoration: none;
+}
+
+#body-text {
+    margin: auto;
+    padding: 3rem 1rem;
+    max-width: 40rem;
+}
+
+#footer {
+    height: 10vh;
+}
+
+h1 {
+    color: #FF6F3F;
+}
+
+#mlh-trust-badge {
+    display: block;
+    max-width: 8rem;
+    min-width: 4em;
+    position: absolute;
+    right: 4rem;
+    top: -0.1rem;
+    width: 10%;
+    transition: ease all .2s;
+    z-index: 100;
+}
+    #mlh-trust-badge:hover {
+        filter: brightness(120%);
+    }
+
+.logo-box img.logo {
+    width: 8rem;
+    height: 8rem;
+}
