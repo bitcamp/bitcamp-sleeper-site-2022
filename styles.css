@@ -40,10 +40,14 @@ body {
 
 .container {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     padding-top: 10vh;
     text-align: center;
     background: #F7F7F7;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .aleo {
@@ -68,15 +72,12 @@ p, a {
 #body-text {
     margin: auto;
     padding: 3rem 1rem;
-    max-width: 40rem;
-}
-
-#footer {
-    height: 10vh;
+    max-width: 55rem;
 }
 
 h1 {
     color: #FF6F3F;
+    font-size: 5rem;
 }
 
 #mlh-trust-badge {
@@ -97,4 +98,49 @@ h1 {
 .logo-box img.logo {
     width: 8rem;
     height: 8rem;
+}
+
+#footer {
+    color: #B2B2B2;
+    background: #F2F2F2;
+
+    margin-top: auto;
+    height: 6vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #footer a {
+        color: #595959
+    }
+
+.border-right {
+    border-right: 1px solid #B2B2B2;
+    padding-right: 3px;
+}
+
+#email {
+    color: #575757;
+    background: #FFFFFF;
+
+    border: 2px solid #C7C7C7;
+    border-radius: 30px;
+
+    padding: 12px;
+
+    width: 300px;
+}
+
+    #email::placeholder {
+        color: #C7C7C7;
+    }
+
+#submit {
+    color: #FFFFFF;
+    background: #FF6F3F;
+    border: 2px solid #FF6F3F;
+    border-radius: 30px;
+    padding: 12px;
 }
