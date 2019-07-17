@@ -141,6 +141,11 @@ h1 {
         color: #C7C7C7;
     }
 
+    #email:focus {
+        border: 2px solid #FF6F3F;
+        box-shadow: 0 0 10px #FF6F3F59; /* RRGGBBAA - 59 is 35% opacity */
+    }
+
 #submit {
     color: #FFFFFF;
     background: #FF6F3F;
