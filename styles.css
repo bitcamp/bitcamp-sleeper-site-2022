@@ -116,6 +116,10 @@ h1 {
         color: #595959
     }
 
+    #footer a:hover {
+        text-decoration: underline;
+    }
+
 .border-right {
     border-right: 1px solid #B2B2B2;
     padding-right: 3px;
