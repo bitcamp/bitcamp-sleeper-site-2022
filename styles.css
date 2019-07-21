@@ -9,7 +9,7 @@
 }
 
 html, body {
-    background: #F2F2F2;
+    background: F7F7F7;
     font-size: 1.8rem;
     font-family: Avenir;
     color: #1A2E33;
@@ -43,7 +43,6 @@ body {
     height: 90vh;
     padding-top: 10vh;
     text-align: center;
-    background: #F7F7F7;
 
     display: flex;
     flex-direction: column;
@@ -100,23 +99,24 @@ h1 {
     height: 8rem;
 }
 
-#footer {
+footer {
     color: #B2B2B2;
     background: #F2F2F2;
 
-    margin-top: auto;
-    height: 6vh;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
-    #footer a {
+    footer a {
         color: #595959
     }
 
-    #footer a:hover {
+    footer a:hover {
         text-decoration: underline;
     }
 
