@@ -176,3 +176,40 @@ h1 {
 
         opacity: 1;
     }
+
+#past {
+    margin-top: 4rem;
+}
+
+#past-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+    .event {
+        width: 450px;
+        height: 300px;
+        margin: 20px;
+
+        color: white;
+        text-align: left;
+        position: relative;
+
+        background-size: contain !important; /* !important so we don't have to repeat*/
+    }
+
+    #event-2019 { background: url('./img/thumbnails/2019-thumb.jpg'); }
+    #event-2018 { background: url('./img/thumbnails/2018-thumb.jpg'); }
+    #event-2017 { background: url('./img/thumbnails/2017-thumb.jpg'); }
+    #event-2016 { background: url('./img/thumbnails/2016-thumb.jpg'); }
+    #event-2015 { background: url('./img/thumbnails/2015-thumb.jpg'); }
+    #event-2014 { background: url('./img/thumbnails/2014-thumb.jpg'); }
+
+    .event-text {
+        position: absolute;
+        bottom: 0;
+    }
