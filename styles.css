@@ -1,18 +1,18 @@
 @font-face {
-    font-family: Avenir;
+    font-family: 'Avenir';
     src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
 }
 
 @font-face {
-    font-family: Aleo;
+    font-family: 'Aleo';
     src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
 }
 
 html, body {
-    background: F7F7F7;
+    background: #F7F7F7;
     font-size: 1.8rem;
     font-family: Avenir;
-    color: #1A2E33;
+    color: #575757;
     line-height: 1.5;
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, a {
-    color: #1A2E33;
+    color: #575757;
     text-decoration: none;
 }
 
@@ -77,6 +77,7 @@ p, a {
 h1 {
     color: #FF6F3F;
     font-size: 5rem;
+    line-height: 6rem;
 }
 
 h2 {
@@ -139,6 +140,11 @@ footer {
     padding: 12px;
 
     width: 300px;
+
+    font-family: 'Avenir';
+    font-weight: 500;
+    vertical-align: text-bottom;
+    line-height: 1.5;
 }
 
     #email::placeholder {
@@ -160,30 +166,35 @@ footer {
 
     width: 130px;
 
-    font-weight: bold;
+    font-family: 'Avenir';
+    font-weight: 900;
+    vertical-align: text-bottom;
+    line-height: 1.5;
 }
 
 #social {
     padding-top: 32px;
-    height: 64px;
+    height: 58px;
 }
 
     .social-icon {
         width: 42px;
         height: 42px;
 
-        padding: 11px 11px 11px 11px;
+        padding: 8px 8px 8px 8px;
 
         opacity: .5;
+        transition: opacity .2s, padding .2s, width .2s, height .2s
     }
 
     .social-icon:hover {
-        width: 64px;
-        height: 64px;
+        width: 58px;
+        height: 58px;
 
         padding: 0px;
 
         opacity: 1;
+        transition: opacity .2s, padding .2s, width .2s, height .2s
     }
 
 #past {
