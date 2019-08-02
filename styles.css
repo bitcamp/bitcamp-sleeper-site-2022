@@ -145,6 +145,7 @@ footer {
     border-radius: 30px;
 
     padding: 12px;
+    margin-right: 10px;
 
     width: 300px;
 
@@ -177,6 +178,10 @@ footer {
     font-weight: 900;
     vertical-align: text-bottom;
     line-height: 1.5;
+}
+
+#submit:disabled {
+    opacity: .5;
 }
 
 #social {
