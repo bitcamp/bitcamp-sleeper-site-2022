@@ -14,10 +14,25 @@ html, body {
     font-family: Avenir;
     color: #575757;
     line-height: 1.5;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 body {
     overflow-x: hidden;
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    #mlh-trust-badge {
+        position: absolute !important;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -85,15 +100,14 @@ h2 {
 }
 
 #mlh-trust-badge {
-    display: block;
-    max-width: 8rem;
-    min-width: 4em;
-    position: absolute;
-    right: 4rem;
-    top: -0.1rem;
-    width: 10%;
-    transition: ease all .2s;
-    z-index: 100;
+    display:block;
+    max-width:100px;
+    min-width:60px;
+    position:fixed;
+    right:50px;
+    top:0;
+    width:10%;
+    z-index:10000
 }
     #mlh-trust-badge:hover {
         filter: brightness(120%);
@@ -126,10 +140,14 @@ footer {
 
     footer a {
         color: #595959;
+        border-bottom: 0px;
+
+        transition: .2s;
     }
 
     footer a:hover {
-        text-decoration: underline;
+        border-bottom: 1px solid #595959;
+        transition: .2s;
     }
 
 .border-right {
