@@ -3,5 +3,10 @@ function isValidEmail(email) {
 }
 
 function onEmailEdit(input) {
-    document.getElementById("submit").disabled = !isValidEmail(input);
+    document.getElementById("mc-embedded-subscribe").disabled = !isValidEmail(input);
+}
+
+function onSubmit() {
+    document.getElementById("mc_embed_signup").style.display = "none";
+    document.getElementById("confirmation").style.display = "block";
 }
