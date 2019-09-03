@@ -294,7 +294,7 @@ footer {
     }
 
 #confirmation {
-
+    display: none;
     color: #009051;
     font-family: Avenir;
     font-weight: 900;
