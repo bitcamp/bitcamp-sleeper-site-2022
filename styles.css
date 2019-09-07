@@ -33,14 +33,14 @@ body {
         display: flex;
         flex-direction: column-reverse;
     }
-
-    #mce-EMAIL {
-        width: 80% !important;
-    }
 }
 
 @media (max-width: 575.98px) {
     html { font-size: 55%; }
+
+    #mce-EMAIL {
+        width: 80% !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     html { font-size: 58%; }
@@ -62,6 +62,10 @@ body {
         background: #171717;
     }
 
+    p, a, h2 {
+        color: #DDDDDD !important;
+    }
+
     footer {
         color: #606060;
         background: #1F1F1F;
@@ -78,10 +82,6 @@ body {
     }
 
     #mce-EMAIL::placeholder {
-        color: #DDDDDD;
-    }
-
-    p, a {
         color: #DDDDDD;
     }
 }
