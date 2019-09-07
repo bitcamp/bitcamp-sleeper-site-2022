@@ -77,13 +77,18 @@ body {
     }
 
     #mce-EMAIL {
-        color: #DDDDDD;
+        color: #DDDDDD !important;
         background: #131313 !important;
         border-color: #323232 !important;
     }
 
     #mce-EMAIL::placeholder {
         color: #DDDDDD !important;
+    }
+
+    #mce-EMAIL:focus {
+        border: 2px solid #323232 !important;
+        box-shadow: 0 0 10px #32323259 !important; /* RRGGBBAA - 59 is 35% opacity */
     }
 }
 
