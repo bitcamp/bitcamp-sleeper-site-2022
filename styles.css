@@ -57,9 +57,10 @@ body {
     html { font-size: 62.5%; }
 }
 
+/* All of these are !important, because Safari hates us */
 @media (prefers-color-scheme: dark) {
     body {
-        background: #171717;
+        background: #171717 !important;
     }
 
     p, a, h2 {
@@ -67,22 +68,22 @@ body {
     }
 
     footer {
-        color: #606060;
-        background: #1F1F1F;
+        color: #606060 !important;
+        background: #1F1F1F !important;
     }
 
     footer a:link, footer a:visited {
-        color: #DDDDDD;
+        color: #DDDDDD !important;
     }
 
     #mce-EMAIL {
         color: #DDDDDD;
-        background: #131313;
-        border-color: #323232;
+        background: #131313 !important;
+        border-color: #323232 !important;
     }
 
     #mce-EMAIL::placeholder {
-        color: #DDDDDD;
+        color: #DDDDDD !important;
     }
 }
 
