@@ -57,6 +57,35 @@ body {
     html { font-size: 62.5%; }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #171717;
+    }
+
+    footer {
+        color: #606060;
+        background: #1F1F1F;
+    }
+
+    footer a:link, footer a:visited {
+        color: #DDDDDD;
+    }
+
+    #mce-EMAIL {
+        color: #DDDDDD;
+        background: #131313;
+        border-color: #323232;
+    }
+
+    #mce-EMAIL::placeholder {
+        color: #DDDDDD;
+    }
+
+    p, a {
+        color: #DDDDDD;
+    }
+}
+
 .container {
     width: 100vw;
     height: 90vh;
@@ -70,10 +99,6 @@ body {
 
 .aleo {
     font-family: Aleo;
-}
-
-.text-white {
-    color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
