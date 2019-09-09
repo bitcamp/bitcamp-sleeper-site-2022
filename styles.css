@@ -79,13 +79,13 @@ body {
     }
 
     footer a {
-        color: #DDDDDD;
-        border-bottom: thin solid #1F1F1F; /* Bottom border starts as same color as background */
+        color: #DDDDDD !important;
+        border-bottom: thin solid #1F1F1F !important; /* Bottom border starts as same color as background */
     }
 
     footer a:hover {
-        color: #DDDDDD;
-        border-bottom: thin solid #DDDDDD; /* Bottom border transitions to same color as text */
+        color: #DDDDDD !important;
+        border-bottom: thin solid #DDDDDD !important; /* Bottom border transitions to same color as text */
     }
 
     #mce-EMAIL {
@@ -238,6 +238,12 @@ footer {
     font-weight: 500;
     vertical-align: text-bottom;
     line-height: 1.5;
+
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition:.2s;
 }
 
     #mce-EMAIL::placeholder {
@@ -247,6 +253,12 @@ footer {
     #mce-EMAIL:focus {
         border: 2px solid #FF6F3F;
         box-shadow: 0 0 10px #FF6F3F59; /* RRGGBBAA - 59 is 35% opacity */
+
+        -o-transition:.2s;
+        -ms-transition:.2s;
+        -moz-transition:.2s;
+        -webkit-transition:.2s;
+        transition:.2s;
     }
 
 #mc-embedded-subscribe {
