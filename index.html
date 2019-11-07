@@ -1,150 +1,251 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Bitcamp</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <meta name="description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!">
-    <meta property="og:title" content="Bitcamp 2020">
-    <meta property="og:site_name" content="Bitcamp 2020">
-    <meta property="og:url" content="https://bit.camp/">
-    <meta property="og:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="https://bit.camp/">
-    <meta name="twitter:title" content="Bitcamp 2020">
-    <meta name="twitter:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!">
+    <meta
+      name="description"
+      content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!"
+    />
+    <meta property="og:title" content="Bitcamp 2020" />
+    <meta property="og:site_name" content="Bitcamp 2020" />
+    <meta property="og:url" content="https://bit.camp/" />
+    <meta
+      property="og:description"
+      content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://bit.camp/" />
+    <meta name="twitter:title" content="Bitcamp 2020" />
+    <meta
+      name="twitter:description"
+      content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you're in for an amazing time. If you're ready for an adventure, see you by the fire!"
+    />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
-    <link rel="manifest" href="./favicons/site.webmanifest">
-    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#ff6f3f">
-    <meta name="msapplication-TileColor" content="#ff6f3f">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicons/safari-pinned-tab.svg"
+      color="#ff6f3f"
+    />
+    <meta name="msapplication-TileColor" content="#ff6f3f" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <script src='script.js'></script>
-</head>
+    <script src="script.js"></script>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="logo-box">
-            <img class="logo" src="./img/bitcamp.png" />
+      <div class="logo-box">
+        <img class="logo" src="./img/bitcamp.png" />
+      </div>
+
+      <div id="upper">
+        <img class="tagline" src="./img/headline.svg" />
+        <p id="body-text">
+          Sign up and we'll keep you updated on all the latest Bitcamp news.
+        </p>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form
+            action="https://bitca.us12.list-manage.com/subscribe/post?u=fa7203cdddec930cb2750d9c4&amp;id=0771fd885f"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_fa7203cdddec930cb2750d9c4_0771fd885f"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
+              placeholder="Email Address"
+              oninput="onEmailEdit(this.value)"
+            />
+            <input
+              type="submit"
+              value="Submit"
+              name="submit"
+              id="mc-embedded-subscribe"
+              class="button"
+              disabled="true"
+              onclick="onSubmit()"
+            />
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
+
+        <div id="confirmation">
+          <img src="./img/check.png" /> Thank you. We'll be in touch soon.
         </div>
 
-        <div id="upper">
-            <img class="tagline" src='./img/headline.svg' />
-            <p id="body-text">
-                Sign up and we'll keep you updated on all the latest Bitcamp news.
-            </p>
-
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-                <form action="https://bitca.us12.list-manage.com/subscribe/post?u=fa7203cdddec930cb2750d9c4&amp;id=0771fd885f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa7203cdddec930cb2750d9c4_0771fd885f" tabindex="-1" value=""></div>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder='Email Address' oninput="onEmailEdit(this.value)">
-                    <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button" disabled='true' onclick="onSubmit()">
-                </form>
-            </div>
-            <!--End mc_embed_signup-->
-
-            <div id="confirmation" >
-                <img src='./img/check.png' /> Thank you. We'll be in touch soon.
-            </div>
-
-            <div id="social">
-                <a href='https://www.facebook.com/bitcmp'>
-                    <picture>
-                        <source srcset='./img/icons/darkmode/fb.png' media='(prefers-color-scheme: dark)'>
-                        <img src='./img/icons/fb.png' class='social-icon'/>
-                    </picture>
-                </a>
-                <a href='https://twitter.com/bitcmp'>
-                    <picture>
-                        <source srcset='./img/icons/darkmode/twitter.png' media='(prefers-color-scheme: dark)'>
-                        <img src='./img/icons/twitter.png' class='social-icon'/>
-                    </picture>
-                </a>
-                <a href='https://www.instagram.com/bitcamp'>
-                    <picture>
-                        <source srcset='./img/icons/darkmode/ig.png' media='(prefers-color-scheme: dark)'>
-                        <img src='./img/icons/ig.png' class='social-icon'/>
-                    </picture>
-                </a>
-                <a href='https://www.snapchat.com/add/bitcamp'>
-                    <picture>
-                        <source srcset='./img/icons/darkmode/snap.png' media='(prefers-color-scheme: dark)'>
-                        <img src='./img/icons/snap.png' class='social-icon'/>
-                    </picture>
-                </a>
-                <a href='https://medium.com/@bitcmp'>
-                    <picture>
-                        <source srcset='./img/icons/darkmode/medium.png' media='(prefers-color-scheme: dark)'>
-                        <img src='./img/icons/medium.png' class='social-icon'/>
-                    </picture>
-                </a>
-            </div>
-            <div id="past">
-                <h2>Explore our past events</h2>
-                <div id="past-grid">
-                    <div id="event-2019" class="event"><a href='https://2019.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2019</h3>
-                            <div class='event-theme'>Build With Purpose</div>
-                        </div>
-                    </div></a></div>
-                    <div id="event-2018" class="event"><a href='https://2018.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2018</h3>
-                            <div class='event-theme'>Mark Your Trail</div>
-                        </div>
-                    </div></a></div>
-                    <div id="event-2017" class="event"><a href='https://2017.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2017</h3>
-                            <div class='event-theme'>Build Together</div>
-                        </div>
-                    </div></a></div>
-                    <div id="event-2016" class="event"><a href='https://2016.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2016</h3>
-                            <div class='event-theme'>Explore New Grounds</div>
-                        </div>
-                    </div></a></div>
-                    <div id="event-2015" class="event"><a href='https://2015.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2015</h3>
-                            <div class='event-theme'>Imagine Tomorrow</div>
-                        </div>
-                    </div></a></div>
-                    <div id="event-2014" class="event"><a href='https://2014.bit.camp'><div class='filler'>
-                        <div class='event-text'>
-                            <h3>2014</h3>
-                            <div class='event-theme'>A New Hackathon</div>
-                        </div>
-                    </div></a></div>
-                </div>
-            </div>
+        <div id="social">
+          <a href="https://www.facebook.com/bitcmp">
+            <picture>
+              <source
+                srcset="./img/icons/darkmode/fb.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <img src="./img/icons/fb.png" class="social-icon" />
+            </picture>
+          </a>
+          <a href="https://twitter.com/bitcmp">
+            <picture>
+              <source
+                srcset="./img/icons/darkmode/twitter.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <img src="./img/icons/twitter.png" class="social-icon" />
+            </picture>
+          </a>
+          <a href="https://www.instagram.com/bitcamp">
+            <picture>
+              <source
+                srcset="./img/icons/darkmode/ig.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <img src="./img/icons/ig.png" class="social-icon" />
+            </picture>
+          </a>
+          <a href="https://www.snapchat.com/add/bitcamp">
+            <picture>
+              <source
+                srcset="./img/icons/darkmode/snap.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <img src="./img/icons/snap.png" class="social-icon" />
+            </picture>
+          </a>
+          <a href="https://medium.com/@bitcmp">
+            <picture>
+              <source
+                srcset="./img/icons/darkmode/medium.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <img src="./img/icons/medium.png" class="social-icon" />
+            </picture>
+          </a>
         </div>
+        <div id="past">
+          <h2>Explore our past events</h2>
+          <div id="past-grid">
+            <div id="event-2019" class="event">
+              <a href="https://2019.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2019</h3>
+                    <div class="event-theme">Build With Purpose</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div id="event-2018" class="event">
+              <a href="https://2018.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2018</h3>
+                    <div class="event-theme">Mark Your Trail</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div id="event-2017" class="event">
+              <a href="https://2017.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2017</h3>
+                    <div class="event-theme">Build Together</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div id="event-2016" class="event">
+              <a href="https://2016.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2016</h3>
+                    <div class="event-theme">Explore New Grounds</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div id="event-2015" class="event">
+              <a href="https://2015.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2015</h3>
+                    <div class="event-theme">Imagine Tomorrow</div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div id="event-2014" class="event">
+              <a href="https://2014.bit.camp"
+                ><div class="filler">
+                  <div class="event-text">
+                    <h3>2014</h3>
+                    <div class="event-theme">A New Hackathon</div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <footer>
-            <span id='copyright'>Copyright &copy; 2019 Bitcamp. All Rights Reserved.</span>
-            <span id='links'>
-                <a class='border-right' href='mailto:sponsorship@bit.camp'>Sponsor Us</a>
-                <a class='border-right' href='./brand.pdf'>Brand Guidelines</a>
-                <a href='mailto:hello@bit.camp'>Contact Us</a>
-            </span>
-        </footer>
+      <footer>
+        <span id="copyright"
+          >Copyright &copy; 2019 Bitcamp. All Rights Reserved.</span
+        >
+        <span id="links">
+          <a class="border-right" href="./prospectus.pdf">Sponsor Us</a>
+          <a class="border-right" href="./brand.pdf">Brand Guidelines</a>
+          <a href="mailto:hello@bit.camp">Contact Us</a>
+        </span>
+      </footer>
     </div>
 
     <!--<a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=red" target="_blank">
         <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-red.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%">
     </a>-->
-</body>
-
+  </body>
 </html>
