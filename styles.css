@@ -166,6 +166,11 @@ a {
   margin: auto;
   padding: 3rem 1rem;
   max-width: 55rem;
+  font-size: 3rem;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 h1 {
@@ -253,45 +258,6 @@ footer a:hover {
   padding-right: 3px;
 }
 
-#mce-EMAIL {
-  color: #575757;
-  background: #ffffff;
-
-  border: 2px solid #c7c7c7;
-  border-radius: 30px;
-
-  padding: 12px;
-  margin-right: 10px;
-
-  width: 300px;
-
-  font-family: "Avenir";
-  font-weight: 500;
-  vertical-align: text-bottom;
-  line-height: 1.5;
-
-  -o-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-#mce-EMAIL::placeholder {
-  color: #c7c7c7;
-}
-
-#mce-EMAIL:focus {
-  border: 2px solid #ff6f3f;
-  box-shadow: 0 0 10px #ff6f3f59; /* RRGGBBAA - 59 is 35% opacity */
-
-  -o-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
 #mc-embedded-subscribe {
   color: #ffffff;
   background: #ff6f3f;
@@ -308,11 +274,13 @@ footer a:hover {
   line-height: 1.5;
 
   transition: opacity 0.2s;
+  margin: auto;
 }
 
-#mc-embedded-subscribe:disabled {
-  opacity: 0.5;
-  transition: opacity 0.2s;
+#mc-embedded-subscribe a,
+#mc-embedded-subscribe a:link,
+#mc-embedded-subscribe a:visited {
+  color: white;
 }
 
 #social {
