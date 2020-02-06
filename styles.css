@@ -253,11 +253,6 @@ footer a:hover {
   border-bottom: thin solid #595959; /* Bottom border transitions to same color as text */
 }
 
-.border-right {
-  border-right: 1px solid #b2b2b2;
-  padding-right: 3px;
-}
-
 #mc-embedded-subscribe {
   color: #ffffff;
   background: #ff6f3f;
