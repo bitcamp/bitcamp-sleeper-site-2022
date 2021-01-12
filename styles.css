@@ -349,6 +349,10 @@ footer a:hover {
   color: white;
 }
 
+#event-2020 {
+  background: no-repeat center center url("./img/thumbnails/2020-thumb.jpg");
+}
+
 #event-2019 {
   background: no-repeat center center url("./img/thumbnails/2019-thumb.jpg");
 }
