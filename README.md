@@ -1,2 +1,2 @@
 # Bitcamp's Sleeper Site
-![Screenshot](./img/sleeper-site-screenshot.png)
+![Screenshot](./assets/img/sleeper-site-screenshot.png)
